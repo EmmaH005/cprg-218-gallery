@@ -6,11 +6,15 @@
     background-color: #120323;
     color: #97bf04;
     text-align: center;
-    min-width: 135rem;    
+   min-width: 145rem; 
+   padding-top: 2rem; 
 
         
  }
  
+ body {
+    background-color:#cccccc ;
+ }
 
  nav {
     background-color:#d9043d ; 
@@ -35,7 +39,14 @@ nav ul{
     text-decoration: none;
 }
 
+figure {
+    max-width: 100%;
+    background-color: white;
+    border: 20px solid white;
+    border-radius: 10px;
 
+   
+}
 
 
 #gallery-container {
@@ -44,13 +55,16 @@ nav ul{
 
 }
 
-img {
-    max-width: 650px;
+#gallery-container:last-child{
+    grid-column: 2 / 3;
+    
 }
+
 
 footer {
     background-color: #d9043d;
     padding: 20px;
     text-align: center;
     color: white;
+    min-width: 145rem;
 }
