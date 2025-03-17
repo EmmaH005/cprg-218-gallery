@@ -51,14 +51,21 @@ nav ul li a{
 
     grid-template-columns: repeat(3, minmax(200px, 1fr));
     grid-template-rows: repeat(4, minmax(150px, 1fr));
-    background-color: white;
+    
   }
 
   #gallery-container img {
     max-width: 100%;
     max-height: 100%;
-    object-fit: cover; }
+    object-fit: cover;
+   
+ }
 
+ #gallery-container figure {
+    background-color: white;
+    padding: 5%;
+    border-radius: 5%;
+ }
 
 
 footer {
