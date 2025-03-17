@@ -98,19 +98,11 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
 
-
-    #gallery-container figure {
-        padding: 3%;
-    }
-
-    #gallery-container img {
-        object-fit: contain;
-    }
 }
 
 @media (max-width: 768px) {
     #gallery-container {
-        grid-template-columns: 1fr; 
-        grid-template-rows: repeat(12, auto); 
+        
+        grid-template-rows: repeat(12, 1fr); 
     }
 }
