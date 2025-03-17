@@ -1,20 +1,30 @@
 
+*{
+    box-sizing: border-box;}
 
-.header-container nav {
-    background-color:#d9043d ;
-    width: 100vw;
-    
+ .header-container {  
+    background-color: #120323;
+    color: #97bf04;
+    text-align: center;
+    min-width: 135rem;    
+
+        
+ }
+ 
+
+ nav {
+    background-color:#d9043d ; 
     
 }
 
-.header-container nav ul{
+nav ul{
     list-style-type: none;
     
 }
 
-.header-container nav ul li{
+ nav ul li{
     display: inline-block;
-    padding: 20px;
+    padding: .5rem;
     
     
 }
@@ -26,12 +36,16 @@
 }
 
 
-.header-container {
-    background-color: #120323;
-    width: 100vw;
-    color: #97bf04;
-    text-align: center
-    ;
+
+
+#gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+img {
+    max-width: 650px;
 }
 
 footer {
