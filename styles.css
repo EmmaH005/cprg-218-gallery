@@ -2,6 +2,8 @@
 *{
     box-sizing: border-box;}
 
+/*Header*/
+
  .header-container {  
     background-color: #120323;
     color: #97bf04;
@@ -11,6 +13,8 @@
         
  }
  
+ /* Body + Main Page Styling */
+
  body {
     background-color:#cccccc ;
     font-family: sans-serif;
@@ -21,7 +25,7 @@ h2 {
     text-align: center;
 }
 
-
+/* Navigation */
 
  nav {
     background-color:#d9043d ; 
@@ -37,24 +41,33 @@ nav ul{
     display: inline-block;
     padding: .5rem;
     
-    
 }
-
 
 nav ul li a{
     color: white;
     text-decoration: none;
 }
 
+/* Grid and Images */
+
 #gallery-container {
     display: grid;
 
     grid-template-columns: repeat(3, minmax(200px, 1fr));
-    grid-template-rows: repeat(4, minmax(150px, 1fr));
+    grid-template-rows: repeat(4, minmax(200px, 1fr));
     
   }
 
+  #gallery-container figure:last-child {
+    grid-column: span 2;
+    text-align: center;
+
+}
+
+  
   #gallery-container img {
+
+    border-bottom: 5px solid #97bf04;;
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
@@ -64,14 +77,15 @@ nav ul li a{
  #gallery-container figure {
     background-color: white;
     padding: 5%;
-    border-radius: 5%;
+    
  }
 
+/* Footer*/
 
 footer {
     background-color: #d9043d;
-    padding: 20px;
+    padding: 2%;
     text-align: center;
     color: white;
-    min-width: 145rem;
+   
 }
