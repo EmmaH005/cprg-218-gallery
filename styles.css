@@ -33,3 +33,10 @@
     text-align: center
     ;
 }
+
+footer {
+    background-color: #d9043d;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
