@@ -105,9 +105,17 @@ footer {
     #gallery-container {
         
         display: grid;
-        grid-template-columns: 1fr; 
-        grid-template-rows: repeat(12, 1fr) !important;
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+        grid-template-rows: repeat(12, minmax(200px, 1fr));
+        
+
     }
 
-    
+    #gallery-container figure:last-child {
+        grid-column: span 1;
+       
+
+
+
+}
 }
