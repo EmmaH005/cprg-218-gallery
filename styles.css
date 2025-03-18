@@ -95,6 +95,7 @@ footer {
 @media (max-width: 1000px) {
   
     #gallery-container {
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -103,6 +104,10 @@ footer {
 @media (max-width: 768px) {
     #gallery-container {
         
-        grid-template-rows: repeat(12, 1fr); 
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: repeat(12, 1fr) !important;
     }
+
+    
 }
