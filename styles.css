@@ -67,7 +67,7 @@ nav ul li a{
   
   #gallery-container img {
 
-    border-bottom: 10px solid #97bf04;;
+    border-bottom: 10px solid #97bf04;
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
@@ -113,9 +113,33 @@ footer {
 
     #gallery-container figure:last-child {
         grid-column: span 1;
-       
-
-
 
 }
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    background-color: #120323;
+}
+
+nav ul li {
+    width: 95%; 
+    margin-bottom: 2%; 
+}
+
+nav ul li a {
+    display: block;
+    background-color: #d9043d;
+    padding: 2%;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid  #97bf04;;
+    
+}
+
+
+
 }
